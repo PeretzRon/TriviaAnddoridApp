@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="gray">#301A1A</color>
+    <color name="yellow">#CAE30F</color>
+    <color name="yellow2">#DCF773</color>
+    <color name="yellowLight">#D9E943</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#10C429</color>
+    <color name="green2">#029725</color>
+    <color name="greenLight">#4DD582</color>
+    <color name="orange">#E78118</color>
+    <color name="categoryBack">#0d6c52</color>
+    <color name="blue">#7EA8FF</color>
+    <color name="blue2">#082055</color>
+    <color name="blue3">#1660FF</color>
+    <color name="red">#F3023C</color>
+    <color name="red2">#FA3A69</color>
+    <color name="redLight">#FF6F91</color>
+    <color name="to_end_game">#1a237e</color>
+</resources>

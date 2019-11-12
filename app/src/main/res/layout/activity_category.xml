@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back3"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".activities.CategoryActivity">
+
+    <TextView
+        android:id="@+id/Categories_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Categories"
+        android:textColor="@color/white"
+        android:textSize="60dp" />
+
+
+    <Button
+        android:id="@+id/animiles_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/rabbit"
+        android:gravity="left|center"
+        android:onClick="categories_click"
+        android:text="  Animals"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/general_Knowledge_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/globe"
+        android:gravity="left|center"
+        android:onClick="categories_click"
+        android:text="  General Knowledge"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/celebrities_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/television1"
+        android:gravity="left|center"
+        android:onClick="categories_click"
+        android:text="  Celebrities"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/sport_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/soccer"
+        android:gravity="left|center"
+        android:onClick="categories_click"
+        android:text="  Sports"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/vehicles_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/car"
+        android:gravity="left|center"
+        android:onClick="categories_click"
+        android:text="  Vehicles"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+
+
+    <Button
+        android:id="@+id/geography_Knowledge_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:gravity="left|center"
+        android:text="  Geography"
+        android:drawableLeft="@drawable/geography"
+        android:textAllCaps="false"
+        android:onClick="categories_click"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/science_Computers_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/computer"
+        android:gravity="left|center"
+        android:onClick="categories_click"
+        android:text="  Science Computers"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+    <Button
+    android:id="@+id/Music_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@android:color/transparent"
+    android:drawableLeft="@drawable/music"
+    android:gravity="left|center"
+    android:onClick="categories_click"
+    android:text="  Music"
+    android:textAllCaps="false"
+    android:textColor="@android:color/background_light"
+    android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/History_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/history"
+        android:gravity="left|center"
+        android:onClick="categories_click"
+        android:text="  History"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/Movies_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/film"
+        android:gravity="left|center"
+        android:onClick="categories_click"
+        android:text="  Movies"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+
+
+</LinearLayout>
+</ScrollView>

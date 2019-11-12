@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <string name="server_ip_home">peretzron.ddns.net</string>
+    <string name="server_ip_leptop">10.0.0.25</string>
+</resources>
