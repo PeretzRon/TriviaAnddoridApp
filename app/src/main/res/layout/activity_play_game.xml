@@ -14,8 +14,9 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="600dp"
         android:progressDrawable="@drawable/circularprogressbar_green"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/text_view_question"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <TextView
@@ -28,8 +29,12 @@
         android:gravity="center"
         android:textColor="@color/white"
         android:textSize="32sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toBottomOf="@+id/view_progress_bar"
+        app:layout_constraintEnd_toEndOf="@+id/view_progress_bar"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view_progress_bar"
+        app:layout_constraintTop_toTopOf="@+id/view_progress_bar"
+        app:layout_constraintVertical_bias="0.49" />
 
 
     <nl.dionsegijn.konfetti.KonfettiView
